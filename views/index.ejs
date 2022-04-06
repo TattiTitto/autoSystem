@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-6 offset-3">
+            <div class="card" style="background: lime;color: white;font-size: 16px;">
+                <div class="card-header bg-info">Zakaz</div>
+                <div class="card-body">
+                    <form action="/" method="post">
+                        <div class="form-group m-2">
+                            <label for="">Заказчик</label>
+                            <input required type="text" name="item0" id="" class="form-control">
+                        </div>
+                        <div class="form-group m-2">
+                            <label for="">Объект оценки</label>
+                            <input required type="text" name="item1" id="" class="form-control">
+                        </div>
+                        <div class="form-group m-2">
+                            <label for="">Объект оценки зарегистрированы по адресу</label>
+                            <input required type="text" name="item2" id="" class="form-control">
+                        </div>
+                        <div class="form-group m-2">
+                            <label for="">Цель оценки</label>
+                            <input required type="text" name="item3" id="" class="form-control">
+                        </div>
+                        <div class="form-group m-2">
+                            <label for="">Вид определяемой стоимости</label>
+                            <input required type="text" name="item4" id="" class="form-control">
+                        </div>
+                        <div class="form-group d-flex">
+                            <div class="w-50 m-2">
+                                <label for="">Дата оценки</label>
+                                <input required type="date" name="item5" id="" class="form-control">
+                            </div>
+                            <div class="w-50 m-2">
+                                <label for="">Дата составления</label>
+                                <input required type="date" name="item6" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group m-2 d-flex justify-content-center">
+                            <button type="submit" class="btn w-50" style="background: red;color: white;">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <button type="submit" class="btn w-50 btn-success"><a href="/save_docx" style="text-decoration: none; color: white;">DOCX</a></button>
+            <!-- <button type="submit" class="btn w-50 btn-success mt-4"><a href="/save_excel" style="text-decoration: none; color: white;">Excel</a></button> -->
+        </div>
+    </div>
+</div>
